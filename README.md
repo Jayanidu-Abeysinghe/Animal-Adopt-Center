@@ -1,112 +1,90 @@
-🐶 Animal Adopt Center
-A modern, responsive pet adoption web platform connecting adorable animals with their forever homes. Built using PHP, MySQL, HTML/CSS, and JavaScript, this system helps users browse, apply, and learn about pet adoption—while admins manage listings and applications efficiently.
+# 🐶 **Animal Adopt Center**
 
-🌟 Features
-🐾 Browse Pets – View available cats and dogs with full profiles.
+A modern, responsive pet adoption platform built with **PHP**, **MySQL**, **HTML/CSS**, and **JavaScript**. Users can browse adoptable pets, apply for adoption, and admins can manage listings — all in one intuitive system.
 
-📝 Adoption Form – Apply online to adopt your favorite animal.
+---
 
-📚 Pet Care Info – Learn about proper animal care before adopting.
+## 🌟 **Features**
 
-💖 Success Stories – Get inspired by real adoption experiences.
+- 🐾 **Browse Pets** – View available cats and dogs with full profiles.
+- 📝 **Adoption Form** – Apply online to adopt your favorite animal.
+- 📚 **Pet Care Info** – Learn about proper animal care before adopting.
+- 💖 **Success Stories** – Read real adoption experiences.
+- 🔐 **Admin Panel** – Manage pet listings, users & applications.
+- 📱 **Responsive UI** – Mobile, tablet & desktop friendly.
 
-🔐 Admin Panel – Manage pet listings, applications & content.
+---
 
-📱 Fully Responsive – Looks great on mobile, tablet & desktop.
+## 🚀 **Tech Stack**
 
-🚀 Tech Stack
-Layer	Tech Used
-💻 Frontend	HTML, CSS, JavaScript
-🧠 Backend	PHP
-🗄️ Database	MySQL
-📸 Assets	Image-based listings
-📸 Screenshots
-Preview the user interface and admin panel in action
+| Layer       | Technologies Used         |
+|-------------|----------------------------|
+| 💻 Frontend | HTML, CSS, JavaScript      |
+| 🧠 Backend  | PHP                        |
+| 🗄️ Database | MySQL                      |
+| 🖼️ Assets   | Image-based pet listings   |
 
-🐱 Pet Listings	🛠️ Admin Dashboard	🧾 Application Form
-📂 Folder Structure
-bash
-Copy code
-Animal-Adopt-Center/
-├── admin/              # Admin features & controls
-├── css/                # Styling files
-├── images/             # Pet photos & UI assets
-├── js/                 # Interactive behavior
-├── includes/           # DB config, helper files
-├── adopt.php           # Adoption form
-├── index.php           # Home page
-└── ...
-⚙️ Getting Started
-🧰 Prerequisites
-PHP server (e.g., XAMPP)
+---
 
-Web browser
+## 📸 **Screenshots**
 
-MySQL client
+> Replace the paths with your actual image file locations inside the `screenshots/` folder.
 
-🛠️ Installation
-Clone the repository
+| 🐱 Pet Listings                     | 🛠️ Admin Dashboard                  | 🧾 Application Form                 |
+|------------------------------------|-------------------------------------|------------------------------------|
+| ![](screenshots/Deploy1.png)       | ![](screenshots/Deploy2.png)        | ![](screenshots/CodeBuild.png)     |
 
-bash
-Copy code
-git clone https://github.com/Jayanidu-Abeysinghe/Animal-Adopt-Center.git
-Move to your web root directory
+---
 
-bash
-Copy code
-mv Animal-Adopt-Center/ /xampp/htdocs/
-Import the SQL database
+## 📁 **Project Structure**
 
-Open phpMyAdmin or MySQL CLI
+Animal-Adopt-Center/ ├── admin/ # Admin dashboard ├── css/ # Stylesheets ├── images/ # Pet photos & icons ├── js/ # Scripts ├── includes/ # DB config, helper PHP files ├── adopt.php # Pet adoption form ├── index.php # Homepage └── ...
 
-Import animal_adopt_center.sql (if included)
 
-Update DB config
 
-In /includes/config.php, configure:
+---
 
-php
-Copy code
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'animal_adopt';
-Run the server
+## ⚙️ **Getting Started**
 
-Visit: http://localhost/Animal-Adopt-Center
+### 🧰 Prerequisites
 
-👩‍💻 Admin Credentials
-You can log in to the admin panel using the following credentials (if available):
+- PHP server (e.g., XAMPP, MAMP)
+- MySQL database
+- Web browser
 
-pgsql
-Copy code
-Username: admin
-Password: admin123 (or check your DB)
-🛡️ Security Features
-🔐 Passwords are stored securely (hashing recommended)
 
-📦 Form input validation
+## 🔒 Security Measures
+Passwords stored securely (hashing recommended)
 
-🔒 Session-based login for admin area
+Session-based admin login
 
-🌐 RDBMS configured in a separate secure file
+Input validation & sanitation
 
-✅ Future Enhancements
-📤 Image upload for new pets
+Restricted access to admin-only areas
 
-📧 Email notifications for applications
+Database credentials abstracted in a config file
 
-🐕 Filter & search pets by breed, age, size
 
-🚦 Application status tracking
+## 📈 Future Enhancements
+🖼️ Image uploads for new pet listings
 
-🌈 User accounts & favorites
+📬 Email notifications for adoption requests
 
-🤝 Contributing
-Feel free to fork, improve, or suggest new features! Pull requests are always welcome.
+🔍 Advanced filtering by breed, age, etc.
 
-📄 License
-This project is open-source and available under the MIT License.
+🧾 Application approval workflow
 
-📬 Contact
+❤️ User accounts with saved pets
+
+☁️ Host live on AWS or other platforms
+
+
+
+## 🤝 Contributing
+Contributions are welcome!
+Fork this repo, make your changes, and submit a pull request.
+
+
+## 📬 Contact
 Developed with ❤️ by Jayanidu Abeysinghe
+
